@@ -11,8 +11,8 @@ echo -e "*    Welcome to the VitalPBX Pico2Wave TTS Integration     *"
 echo -e "************************************************************"
 cd /var/lib/asterisk/agi-bin/
 wget https://raw.githubusercontent.com/pico2wave/master/picotts.agi
-chown asterisk:asterisk googletts.agi
-chmod +x googletts.agi
+chown asterisk:asterisk picotts.agi
+chmod +x picotts.agi
 cd /usr/bin
 wget https://raw.githubusercontent.com/VitalPBX/picotts/master/pico2wave
 chmod +x pico2wave
