@@ -30,7 +30,7 @@ wget https://github.com/VitalPBX/pico2wave/raw/master/lang/fr-FR_ta.bin
 wget https://github.com/VitalPBX/pico2wave/raw/master/lang/it-IT_cm0_sg.bin
 wget https://github.com/VitalPBX/pico2wave/raw/master/lang/it-IT_ta.bin
 cd /etc/asterisk/ombutel
-wget https://github.com/VitalPBX/pico2wave/raw/master/entensions__90-pico2wave.conf
+wget https://github.com/VitalPBX/pico2wave/raw/master/extensions__90-pico2wave.conf
 asterisk -rx"dialplan reload"
 echo -e "\n"
 echo -e "************************************************************"
