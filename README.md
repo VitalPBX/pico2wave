@@ -16,7 +16,7 @@ sox:                     Sound eXchange, sound processing program<br>
 Copy install.sh to your home directory and procedure to execute.
 <pre>
 [root@vitalpbx ~]# cd /
-[root@vitalpbx ~]# wget https://github.com/VitalPBX/pico2wave/blob/master/install.sh
+[root@vitalpbx ~]# wget https://raw.githubusercontent.com/VitalPBX/pico2wave/master/install.sh
 [root@vitalpbx ~]# chmod +x install.sh
 [root@vitalpbx ~]# ./install.sh
 </pre>
