@@ -21,7 +21,7 @@ Copy install.sh to your home directory and procedure to execute.
 [root@vitalpbx ~]# ./install.sh
 </pre>
 
-No Dial
+Now Dial
 <pre>
 *8877
 </pre>
