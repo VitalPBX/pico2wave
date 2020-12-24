@@ -18,6 +18,8 @@ wget https://github.com/VitalPBX/pico2wave/raw/master/app_picotts.conf
 cd /usr/bin
 wget https://github.com/VitalPBX/pico2wave/blob/master/pico2wave
 chmod +x pico2wave
+nkdir /usr/share/picotts
+/usr/share/picotts/lang
 cd /usr/share/picotts/lang
 wget https://github.com/VitalPBX/pico2wave/raw/master/lang/de-DE_gl0_sg.bin
 wget https://github.com/VitalPBX/pico2wave/raw/master/lang/de-DE_ta.bin
