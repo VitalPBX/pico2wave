@@ -16,7 +16,7 @@ chmod +x picotts.agi
 cd /etc/asterisk/
 wget https://raw.githubusercontent.com/VitalPBX/pico2wave/master/app_picotts.conf
 cd /usr/bin
-wget https://github.com/VitalPBX/pico2wave/raw/master/pico2wave
+wget https://github.com/VitalPBX/pico2wave/blob/master/pico2wave
 chmod +x pico2wave
 cd /usr/share/picotts/lang
 wget https://github.com/VitalPBX/pico2wave/raw/master/lang/de-DE_gl0_sg.bin
