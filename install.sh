@@ -18,8 +18,8 @@ wget https://github.com/VitalPBX/pico2wave/raw/master/app_picotts.conf
 cd /usr/bin
 wget https://github.com/VitalPBX/pico2wave/blob/master/pico2wave
 chmod +x pico2wave
-nkdir /usr/share/picotts
-nkdir /usr/share/picotts/lang
+mkdir /usr/share/picotts
+mkdir /usr/share/picotts/lang
 cd /usr/share/picotts/lang
 wget https://github.com/VitalPBX/pico2wave/raw/master/lang/de-DE_gl0_sg.bin
 wget https://github.com/VitalPBX/pico2wave/raw/master/lang/de-DE_ta.bin
@@ -33,9 +33,8 @@ wget https://github.com/VitalPBX/pico2wave/raw/master/lang/fr-FR_nk0_sg.bin
 wget https://github.com/VitalPBX/pico2wave/raw/master/lang/fr-FR_ta.bin
 wget https://github.com/VitalPBX/pico2wave/raw/master/lang/it-IT_cm0_sg.bin
 wget https://github.com/VitalPBX/pico2wave/raw/master/lang/it-IT_ta.bin
-cd /etc/asterisk/ombutel
+cd /etc/asterisk/vitalpbx
 wget https://github.com/VitalPBX/pico2wave/raw/master/extensions__90-pico2wave.conf
-asterisk -rx"dialplan reload"
 echo -e "\n"
 echo -e "************************************************************"
 echo -e "*                 For test dial *8877                      *"
