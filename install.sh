@@ -14,7 +14,7 @@ wget https://github.com/VitalPBX/pico2wave/raw/master/picotts.agi
 chown asterisk:asterisk picotts.agi
 chmod +x picotts.agi
 cd /etc/asterisk/
-wget https://github.com/VitalPBX/pico2wave/raw/master/app-picotts.conf
+wget https://raw.githubusercontent.com/VitalPBX/pico2wave/master/app_picotts.conf
 cd /usr/bin
 wget https://github.com/VitalPBX/pico2wave/raw/master/pico2wave
 chmod +x pico2wave
