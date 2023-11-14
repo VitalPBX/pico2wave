@@ -18,8 +18,7 @@ wget https://github.com/VitalPBX/pico2wave/raw/master/app_picotts.conf
 cd /usr/bin
 wget https://github.com/VitalPBX/pico2wave/blob/master/pico2wave
 chmod +x pico2wave
-DIR="/usr/share/picotts"
-if [!-d "$DIR" ]; then
+if [ ! -d "/usr/share/picotts" ] ;then
   mkdir /usr/share/picotts
   mkdir /usr/share/picotts/lang
 fi
