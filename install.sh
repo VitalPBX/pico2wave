@@ -18,23 +18,7 @@ wget https://github.com/VitalPBX/pico2wave/raw/master/app_picotts.conf
 cd /usr/bin
 wget https://github.com/VitalPBX/pico2wave/blob/master/pico2wave
 chmod +x pico2wave
-if [ ! -d "/usr/share/picotts" ] ;then
-  mkdir /usr/share/picotts
-  mkdir /usr/share/picotts/lang
-fi
-cd /usr/share/picotts/lang
-wget https://github.com/VitalPBX/pico2wave/raw/master/lang/de-DE_gl0_sg.bin
-wget https://github.com/VitalPBX/pico2wave/raw/master/lang/de-DE_ta.bin
-wget https://github.com/VitalPBX/pico2wave/raw/master/lang/en-GB_kh0_sg.bin
-wget https://github.com/VitalPBX/pico2wave/raw/master/lang/en-GB_ta.bin
-wget https://github.com/VitalPBX/pico2wave/raw/master/lang/en-US_lh0_sg.bin
-wget https://github.com/VitalPBX/pico2wave/raw/master/lang/en-US_ta.bin
-wget https://github.com/VitalPBX/pico2wave/raw/master/lang/es-ES_ta.bin
-wget https://github.com/VitalPBX/pico2wave/raw/master/lang/es-ES_zl0_sg.bin
-wget https://github.com/VitalPBX/pico2wave/raw/master/lang/fr-FR_nk0_sg.bin
-wget https://github.com/VitalPBX/pico2wave/raw/master/lang/fr-FR_ta.bin
-wget https://github.com/VitalPBX/pico2wave/raw/master/lang/it-IT_cm0_sg.bin
-wget https://github.com/VitalPBX/pico2wave/raw/master/lang/it-IT_ta.bin
+apt install libttspico-data
 cd /etc/asterisk/vitalpbx
 wget https://github.com/VitalPBX/pico2wave/raw/master/extensions__90-pico2wave.conf
 asterisk -rx"dialplan reload"
